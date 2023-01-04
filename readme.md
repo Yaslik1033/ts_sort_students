@@ -42,4 +42,16 @@ const studentsBySurnameDesc = sortStudents(students, SortType.Surname, 'desc');
 
 // from the lowest Average grade to the highest
 const studentsByGrade = sortStudents(students, SortType.AverageGrade, 'asc');
+// const married = students.filter((student: Student) => student.married);
+        // // eslint-disable-next-line max-len
+        // const unmarried = students.filter((student: Student) => !student.married);
+
+        // // eslint-disable-next-line
+        // console.log([...unmarried, ...married]);
+
+        // return [
+        //   ...unmarried,
+        //   ...married,
+        // ];
+        // eslint-disable-next-line max-len
 ```
